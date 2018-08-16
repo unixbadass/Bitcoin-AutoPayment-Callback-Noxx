@@ -1,4 +1,5 @@
 <?PHP
+// cURL post.
 function post_api($url, $postfields) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
